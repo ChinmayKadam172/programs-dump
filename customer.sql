@@ -1,0 +1,14 @@
+drop table empl;
+drop table project;
+create table empl(E_id int,ename varchar(20),address varchar(20));
+insert into empl values(1,'sunny','jaipur');
+insert into empl values(2,'parth','delhi');
+insert into empl values(3,'aarav','pune');
+insert into empl values(4,'santosh','banglore');
+insert into empl values(5,'karan','jaipur');
+create table project(E_id_P int,P_ID varchar(20),pname varchar(20),location char(20));
+select * from project;
+insert into project values(1,'p1','IOT','banglore');
+insert into project values(2,'p2','BIG DATA','DELHI');
+insert into project values(3,'p3','RETAIL','MUMBAI');
+insert into project values(4,'p4','IOT','HYDERABAD');
